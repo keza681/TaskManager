@@ -87,7 +87,7 @@ i {
 .background-form h3 {
     display: flex;
     justify-content: center;
-    height: 113px;
+    height: 50px;
     align-items: center;
 }
 
@@ -102,13 +102,15 @@ i {
 .form-box input {
     background-color: white;
     width: 70%;
-    height: 22px;
     padding: 8px;
-    color: black;
+    color: rgb(10, 9, 9);
     margin-bottom: 20px;
     border: 0.5px solid white;
     border-radius: 4px;
+}
 
+::placeholder{
+    color: black;
 }
 
 .background-form>p {
@@ -126,7 +128,6 @@ button {
     height: 44px;
     width: 439px;
     border-radius: 10px;
-    margin-top: 25px;
 }
 
 p {
@@ -135,33 +136,4 @@ p {
 
 p>a {
     color: black;
-}
-
-/* ----------------------------------------------- */
-
-#icon{
-    position: absolute;
-    color: black;
-    margin-top: 14px;
-    margin-left: -30px;
-    margin-right: 14px;
-
-    /* give the input pading so that it doesn't affect the placeholder */
-}
-/* ------------------------------------------------------ */
-
-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 52px;
-}
-
-.background-form>p{
-    margin-bottom: 1px;
-}
-
-.last-lines{
-    margin-top: 40px
 }
