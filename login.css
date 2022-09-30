@@ -165,3 +165,11 @@ p>a {
 .last-lines{
     margin-top: 40px
 }
+
+.last-lines p a{
+    text-decoration: none;
+}
+
+.last-lines p i{
+    margin: 0px;
+}
