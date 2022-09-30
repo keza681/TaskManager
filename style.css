@@ -110,7 +110,7 @@ i {
 }
 
 ::placeholder{
-    color: black;
+    color: rgba(0, 0, 0, 0.782);
 }
 
 .background-form>p {
@@ -132,8 +132,34 @@ button {
 
 p {
     margin-left: 95px;
+    margin-bottom: 35px;
+
 }
 
-p>a {
+p > a {
     color: black;
+    /* margin-bottom: 35px; */
+}
+
+.background-form>p{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 42px;
+    /* font-family: inter; */
+}
+
+.background-form>p a{
+    font-weight: bold;
+    /* font-family: inter; */
+    color: solid black;
+}
+
+#checkbox{
+    margin: auto;
+}
+
+#eye{
+    margin: auto;
+    margin-left: -37px;
 }
