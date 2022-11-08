@@ -181,6 +181,7 @@ li a {
   padding-right: 8px;
   padding-left: 8px;
   margin-top: 12px;
+  border-radius: 7px;
   }
 
 .todo__cards--title {
